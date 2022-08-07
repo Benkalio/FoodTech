@@ -8,7 +8,14 @@
   default: 400, 500, 600, 700
 
   LINE HEIGHT: 
-  default: 1, 1.05, 1.6
+  default: 1, 
+  SMALL: 1.05,
+  MEDIUM: 1.2
+  PARAGRAPH DEFAULT: 1.6
+
+  LETTER SPACING: 
+    DEFAULT: 0.5px, 0.75px
+
 
   FONT SIZE SYSTEM (px)
     10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 
@@ -76,12 +83,32 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 
+.heading-primary,
+.heading-secondary {
+  font-weight: 700;
+  color: #333;
+  letter-spacing: -0.5px;
+}
+
 .heading-primary {
   font-size: 5.2rem;
   line-height: 1;
-  color: #333;
-  letter-spacing: -0.5px;
   margin-bottom: 3.2rem; /* 32px */
+}
+
+.heading-secondary {
+  font-size: 4.4rem;
+  line-height: 1.2;
+  margin-bottom: 9.6rem;
+}
+
+.subheading {
+  display: block;
+  font-size: 2rem;
+  color: #cf711f;
+  text-transform: uppercase;
+  margin-bottom: 1.6;
+  letter-spacing: 0.75px;
 }
 
 .btn:link,
@@ -242,4 +269,8 @@ body {
 /* ***************** */
 .section-how {
   padding: 9.6rem 0;
+}
+
+.step-img {
+  width: 50%;
 }
