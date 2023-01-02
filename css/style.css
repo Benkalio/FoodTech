@@ -111,8 +111,12 @@
 }
 
 /* ************* */
-  /* Featured Section */
+  /* Featured In Section */
 /* ************* */
+.section-featured {
+  padding: 4.8rem 0 3.2rem 0;
+}
+
 .heading-featured-in {
   font-size: 1.4rem;
   text-transform: uppercase;
@@ -120,6 +124,19 @@
   font-weight: 500;
   text-align: center;
   margin-bottom: 2.4rem;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-around;
+  /* filter: grayscale(40); */
+  filter: brightness(0);
+  opacity: 60%;
+}
+
+.logos img {
+  height: 3.2rem;
+  
 }
 
 /* ***************** */
