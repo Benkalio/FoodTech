@@ -134,6 +134,7 @@ body {
   border-radius: 9px;
 
   /* To add animation for hover effect - put on the original form */
+  /* transition: background-color 0.3s;   */
   transition: all 0.3s;
 }
 
